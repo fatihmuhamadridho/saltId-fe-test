@@ -547,6 +547,13 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@mantine/carousel@^6.0.19":
+  version "6.0.19"
+  resolved "https://registry.yarnpkg.com/@mantine/carousel/-/carousel-6.0.19.tgz#a35ff40bb3ae4f197ad2417e50cc745cdeff0a3f"
+  integrity sha512-vEhsev8+XdETrCWrv3aQBHKVxcHcMK8xhYz+iVQo3Y9zHB9wrlTNEAa9hImBtmtoVWqtfu6zjJeOtf5oeT8Y9g==
+  dependencies:
+    "@mantine/utils" "6.0.19"
+
 "@mantine/core@^6.0.19":
   version "6.0.19"
   resolved "https://registry.yarnpkg.com/@mantine/core/-/core-6.0.19.tgz#612413f0e8eb117e6a39068a625c6ccf2ae2ccdd"
@@ -778,6 +785,19 @@
     "@svgr/babel-preset" "^7.0.0"
     "@svgr/hast-util-to-babel-ast" "^7.0.0"
     svg-parser "^2.0.4"
+
+"@tabler/icons-react@^2.30.0":
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-react/-/icons-react-2.30.0.tgz#e7ece4b83d6cd66b3a4ec043b89bf18e5341c03e"
+  integrity sha512-aYggXusHW133L4KujJkVf4GIIrjg7tIRHgNf/n37mnoHqMjwNP+PjmVdrBM1Z8Ywx9PKFRlrwM0eUMDcG+I4HA==
+  dependencies:
+    "@tabler/icons" "2.30.0"
+    prop-types "^15.7.2"
+
+"@tabler/icons@2.30.0":
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-2.30.0.tgz#4ea3c4da56fd5653bb9d0be0dc7feaa33602555c"
+  integrity sha512-tvtmkI4ALjKThVVORh++sB9JnkFY7eGInKxNy+Df7WVQiF7T85tlvGADzlgX4Ic+CK5MIUzZ0jhOlQ/RRlgXpg==
 
 "@tanstack/react-router@^0.0.1-beta.146":
   version "0.0.1-beta.146"
@@ -1254,6 +1274,11 @@ chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
+classnames@^2.2.5:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 clsx@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
@@ -1420,6 +1445,24 @@ electron-to-chromium@^1.4.477:
   version "1.4.490"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.490.tgz#d99286f6e915667fa18ea4554def1aa60eb4d5f1"
   integrity sha512-6s7NVJz+sATdYnIwhdshx/N/9O6rvMxmhVoDSDFdj6iA45gHR8EQje70+RYsF4GeB+k0IeNSBnP7yG9ZXJFr7A==
+
+embla-carousel-react@^8.0.0-rc11:
+  version "8.0.0-rc11"
+  resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-8.0.0-rc11.tgz#0e2fde5cafa3cae9c30721e18aee648599527994"
+  integrity sha512-hXOAUMOIa0GF5BtdTTqBuKcjgU+ipul6thTCXOZttqnu2c6VS3SIzUUT+onIIEw+AptzKJcPwGcoAByAGa9eJw==
+  dependencies:
+    embla-carousel "8.0.0-rc11"
+    embla-carousel-reactive-utils "8.0.0-rc11"
+
+embla-carousel-reactive-utils@8.0.0-rc11:
+  version "8.0.0-rc11"
+  resolved "https://registry.yarnpkg.com/embla-carousel-reactive-utils/-/embla-carousel-reactive-utils-8.0.0-rc11.tgz#d5493bd2bfeb68b1cbf65d4c836a4d36779a03de"
+  integrity sha512-pDNVJNCn0dybLkHw93My+cMfkRQ5oLZff6ZCwgmrw+96aPiZUyo5ANywz8Lb70SWWgD/TNBRrtQCquvjHS31Sg==
+
+embla-carousel@8.0.0-rc11:
+  version "8.0.0-rc11"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-8.0.0-rc11.tgz#700ab6b3e4825ef9e6ac83238b81e3e1a316c3f4"
+  integrity sha512-Toeaug98PGYzSY56p/xsa+u4zbQbAXgGymwEDUc2wqT+1XCnnUsH42MClglhABJQbobwDYxOabhJrfXyJKUMig==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
@@ -2643,7 +2686,7 @@ prettier@^3.0.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.1.tgz#65271fc9320ce4913c57747a70ce635b30beaa40"
   integrity sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==
 
-prop-types@^15.8.1:
+prop-types@^15.5.8, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2669,6 +2712,13 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-easy-swipe@^0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/react-easy-swipe/-/react-easy-swipe-0.0.21.tgz#ce9384d576f7a8529dc2ca377c1bf03920bac8eb"
+  integrity sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg==
+  dependencies:
+    prop-types "^15.5.8"
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
@@ -2698,6 +2748,15 @@ react-remove-scroll@^2.5.5:
     tslib "^2.1.0"
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
+
+react-responsive-carousel@^3.2.23:
+  version "3.2.23"
+  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.2.23.tgz#4c0016ff54603e604bb5c1f9e7ef2d1eda133f1d"
+  integrity sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg==
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.5.8"
+    react-easy-swipe "^0.0.21"
 
 react-style-singleton@^2.2.1:
   version "2.2.1"

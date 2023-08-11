@@ -1,13 +1,13 @@
 import { Container } from '@mantine/core';
-import { Outlet } from '@tanstack/react-router';
 import { useEffect } from 'react';
 import Navbar from '@components/organisms/Navbar/Navbar';
 
 interface DefaultProps {
   title?: any;
+  children?: any;
 }
 
-const Default = ({ title }: DefaultProps) => {
+const Default = ({ title, children }: DefaultProps) => {
   useEffect(() => {
     document.title = title || `localhost:${import.meta.env.MODE}`;
   }, [title]);
@@ -16,7 +16,9 @@ const Default = ({ title }: DefaultProps) => {
     <>
       <Container fluid p={0}>
         <Navbar />
-        <Outlet />
+        <Container fluid p={0}>
+          {children}
+        </Container>
       </Container>
     </>
   );

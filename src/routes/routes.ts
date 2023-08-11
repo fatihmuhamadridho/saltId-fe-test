@@ -1,9 +1,8 @@
-import { RootRoute, Route } from '@tanstack/react-router';
-import Default from '@components/templates/Default/Default';
+import { Outlet, RootRoute, Route } from '@tanstack/react-router';
 import HomePage from '@pages/HomePage/HomePage';
 
 const rootRoute = new RootRoute({
-  component: Default,
+  component: Outlet,
 });
 const homePageRoute = new Route({
   getParentRoute: () => rootRoute,
