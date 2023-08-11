@@ -6,14 +6,5 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["vite.config.ts"],
-  "baseUrl": ".",
-  "paths": {
-    "@assets/*": ["src/assets/*"],
-    "@components/*": ["src/components/*"],
-    "@pages/*": ["src/pages/*"],
-    "@routes/*": ["src/routes/*"],
-    "@styles/*": ["src/styles/*"],
-    "@/*": ["src/*"]
-  }
+  "include": ["vite.config.ts"]
 }
